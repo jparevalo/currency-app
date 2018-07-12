@@ -4,13 +4,13 @@
         <div class="col m6">
           <div class="">
             <%= f.label :start_date, "Desde: " %>
-            <%= f.text_field :start_date, data:{ provide:'datepicker' }, required: :true, value: Time.now.strftime('%m/%d/%Y')%>
+            <%= f.text_field :start_date, data:{ provide:'datepicker' }, required: :true, value: @start_date.strftime('%m/%d/%Y')%>
           </div>
         </div>
         <div class="col m6">
           <div class="">
             <%= f.label :end_date, "Hasta: " %>
-            <%= f.text_field :end_date, data:{ provide:'datepicker' }, required: :true, value: Time.now.strftime('%m/%d/%Y') %>
+            <%= f.text_field :end_date, data:{ provide:'datepicker' }, required: :true, value: @end_date.strftime('%m/%d/%Y') %>
           </div>
         </div>
       </div>

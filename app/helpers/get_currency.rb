@@ -17,4 +17,9 @@ class GetCurrency
     url = URI(@api_url % {currency_type: 'uf', start_year: start_date.year, start_month: start_date.month, start_day: start_date.day, end_year: end_date.year, end_month: end_date.month, end_day: end_date.day})
     {'UF': JSON.parse(Net::HTTP.get(url))['UFs']}
   end
+
+  def usd(start_date, end_date)
+    url = URI(@api_url % {currency_type: 'dolar', start_year: start_date.year, start_month: start_date.month, start_day: start_date.day, end_year: end_date.year, end_month: end_date.month, end_day: end_date.day})
+    {'USD': JSON.parse(Net::HTTP.get(url))['Dolares']}
+  end
 end

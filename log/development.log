@@ -1427,3 +1427,268 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1023ms (Views: 141.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:40:53 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1041ms (Views: 433.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:40:59 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (5.2ms)
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 664ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:41:35 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (24.6ms)
+Completed 500 Internal Server Error in 531ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    38:           </tr>
+    39:           </thead>
+    40:           <tbody>
+    41:           <% @usd_values.each do |day| %>
+    42:               <tr>
+    43:                 <td><%= day["Fecha"]%></td>
+    44:                 <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:41:in `_app_views_home_index_html_erb___2398368852735458866_51052360'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:41:46 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 2829ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    38:           </tr>
+    39:           </thead>
+    40:           <tbody>
+    41:           <% @usd_values.each do |day| %>
+    42:               <tr>
+    43:                 <td><%= day["Fecha"]%></td>
+    44:                 <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:41:in `_app_views_home_index_html_erb___2398368852735458866_69812133836480'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:42:11 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 854ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F12%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:42:26 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/12/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 1756ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    38:           </tr>
+    39:           </thead>
+    40:           <tbody>
+    41:           <% @usd_values.each do |day| %>
+    42:               <tr>
+    43:                 <td><%= day["Fecha"]%></td>
+    44:                 <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:41:in `_app_views_home_index_html_erb___2398368852735458866_69812135810620'
+app/controllers/home_controller.rb:18:in `update'
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F12%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:43:12 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/12/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 415ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    38:           </tr>
+    39:           </thead>
+    40:           <tbody>
+    41:           <% @usd_values.each do |day| %>
+    42:               <tr>
+    43:                 <td><%= day["Fecha"]%></td>
+    44:                 <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:41:in `_app_views_home_index_html_erb___2398368852735458866_69812077367580'
+app/controllers/home_controller.rb:18:in `update'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:43:52 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 495ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    39:             </tr>
+    40:             </thead>
+    41:             <tbody>
+    42:             <% @usd_values.each do |day| %>
+    43:                 <tr>
+    44:                   <td><%= day["Fecha"]%></td>
+    45:                   <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:42:in `_app_views_home_index_html_erb___2398368852735458866_69812143608140'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:47:39 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 529ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    39:             </tr>
+    40:             </thead>
+    41:             <tbody>
+    42:             <% @usd_values.each do |day| %>
+    43:                 <tr>
+    44:                   <td><%= day["Fecha"]%></td>
+    45:                   <td><%= day["Valor"]%></td>
+  
+app/views/home/index.html.erb:42:in `_app_views_home_index_html_erb___2398368852735458866_69812047806880'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:47:56 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 1684ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    41:             <tbody>
+    42:             <% @usd_values.each do |day| %>
+    43:                 <tr>
+    44:                   <td><%= day["Fecha"]%></td>
+    45:                   <td><%= day["Valor"]%></td>
+    46:                 </tr>
+    47:             <% end %>
+  
+app/views/home/index.html.erb:44:in `[]'
+app/views/home/index.html.erb:44:in `block in _app_views_home_index_html_erb___2398368852735458866_69812130886560'
+app/views/home/index.html.erb:42:in `each'
+app/views/home/index.html.erb:42:in `_app_views_home_index_html_erb___2398368852735458866_69812130886560'
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:48:14 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 609ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:48:43 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 798ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:49:17 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1080ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:49:34 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1790ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:49:40 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 721ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:49:50 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.1ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 777ms (Views: 156.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:49:58 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 727ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:52:42 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 774ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:53:19 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1149ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-12 17:53:25 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 594ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F01%2F2018&range%5Bend_date%5D=07%2F12%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-12 17:53:30 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/01/2018", "end_date"=>"07/12/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 655ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+

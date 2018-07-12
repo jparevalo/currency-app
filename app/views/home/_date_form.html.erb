@@ -1,0 +1,21 @@
+<div class="card-panel">
+  <%= form_for :range, url: home_update_path, method: :get do |f| %>
+      <div class="row">
+        <div class="col m6">
+          <div class="">
+            <%= f.label :start_date, "Desde: " %>
+            <%= f.text_field :start_date, data:{ provide:'datepicker' }, required: :true, value: Time.now.strftime('%m/%d/%Y')%>
+          </div>
+        </div>
+        <div class="col m6">
+          <div class="">
+            <%= f.label :end_date, "Hasta: " %>
+            <%= f.text_field :end_date, data:{ provide:'datepicker' }, required: :true, value: Time.now.strftime('%m/%d/%Y') %>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <%= f.submit 'Aplicar'%>
+      </div>
+  <% end %>
+</div>

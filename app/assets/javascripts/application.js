@@ -17,5 +17,7 @@
 //= require Chart.bundle
 //= require chartkick
 //= require bootstrap-datepicker
+//= require dataTables/jquery.dataTables
+//= require dataTables/extras/dataTables.responsive
 //= require turbolinks
 //= require_tree .

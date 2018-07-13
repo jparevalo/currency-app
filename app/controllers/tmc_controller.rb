@@ -20,7 +20,6 @@ class TmcController < ApplicationController
   def group_by_name
     @tmc_values.each_with_index do |tmc, index|
       if tmc["Titulo"].nil?
-        puts 'iiii'
         @tmc_values[index]["Titulo"] = @tmc_values[index]["SubTitulo"]
       end
     end

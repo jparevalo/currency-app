@@ -20,6 +20,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 
+# Datatables for pagination and excel export
+gem 'jquery-datatables-rails', '~> 3.4.0'
+
 # Savon for api calls
 gem "savon"
 

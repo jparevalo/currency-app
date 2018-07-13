@@ -60,22 +60,24 @@
                                 </div>
                             <% end %>
                           </div>
-                          <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
-                            <thead>
-                            <tr>
-                              <th>Día</th>
-                              <th>Valor (%)</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <% t[1].each do |day| %>
-                                <tr>
-                                  <td><%= day["Fecha"]%></td>
-                                  <td><%= day["Valor"]%></td>
-                                </tr>
-                            <% end %>
-                            </tbody>
-                          </table>
+                          <div style="margin-top: 60px">
+                            <table class="table tmc-table table-striped table-bordered table-condensed display responsive no-wrap">
+                              <thead>
+                              <tr>
+                                <th>Día</th>
+                                <th>Valor (%)</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <% t[1].each do |day| %>
+                                  <tr>
+                                    <td><%= day["Fecha"]%></td>
+                                    <td><%= day["Valor"]%></td>
+                                  </tr>
+                              <% end %>
+                              </tbody>
+                            </table>
+                          </div>
                       <% end %>
                     </div>
                   </div>
@@ -102,5 +104,8 @@
         if ($(e.target).is('.panel-heading')) {
             $('.collapse').collapse('hide');
         }
+    });
+    $('.tmc-table').DataTable({
+        responsive: true
     });
 </script>

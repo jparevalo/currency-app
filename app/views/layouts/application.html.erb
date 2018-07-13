@@ -13,10 +13,34 @@
   <body>
     <nav class="navbar navbar-static-top navbar-inverse" style="line-height: 50px;">
       <div class="container-fluid">
-        <div>
-          <h2 style="color:white">Currency App - SBIF</h2>
+          <div class="navbar-header" style="margin-bottom: 11px">
+            <h2 style="color:white">Currency App - SBIF</h2>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <nav style="line-height: 70px;">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <% if controller_name == "home" %>
+                  <%= link_to tmc_index_path do %>
+                      <h4 style="color:white">TMC</h4>
+                  <% end %>
+                <% else %>
+                    <%= link_to :root do %>
+                        <h4 style="color:white">UF/DÓLAR</h4>
+                    <% end %>
+                <% end %>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+
     </nav>
     <%= yield %>
   </body>

@@ -1,9 +1,9 @@
 <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
-<div class="row row-centered" style="margin-bottom: 50px">
+<div class="row row-centered" style="margin-bottom: 30px">
   <div class="col-md-6 col-centered">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4 style="font-weight: bold">Consulta de Valores</h4>
+        <h4 style="font-weight: bold">Consulta de Valores UF/Dólar</h4>
         <%= render 'date_form' %>
       </div>
     </div>
@@ -14,7 +14,7 @@
   <div class="row">
     <div class="col-md-6">
       <div align="center">
-        <h3 style="font-weight: bold">PRECIO UF</h3>
+        <h3 style="font-weight: bold">VALOR UF</h3>
       </div>
       <div class="row row-centered" style="margin-top: 20px">
         <div class="col-md-6 col-centered">
@@ -24,15 +24,15 @@
                 <tbody>
                 <tr>
                   <td><b>Valor Promedio: </b></td>
-                  <td><%= '%.2f' % (@uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.reduce(:+) / @uf_values.size) %></td>
+                  <td>CLP$ <%= '%.2f' % (@uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.reduce(:+) / @uf_values.size) %></td>
                 </tr>
                 <tr>
                   <td><b>Valor Mínimo: </b></td>
-                  <td><%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.min %></td>
+                  <td>CLP$ <%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.min %></td>
                 </tr>
                 <tr>
                   <td><b>Valor Mínimo: </b></td>
-                  <td><%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.max %></td>
+                  <td>CLP$ <%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.max %></td>
                 </tr>
                 </tbody>
               </table>
@@ -40,13 +40,15 @@
           </div>
         </div>
       </div>
-      <%= line_chart @uf_values.map{|day| [day["Fecha"], day["Valor"].gsub('.','').gsub(',','.').to_d]},
-          prefix: "CLP$ ", min: nil, xtitle: "Fecha", ytitle: "Valor UF en CLP", points: false %>
+      <% if @uf_values.count > 1 %>
+        <%= line_chart @uf_values.map{|day| [day["Fecha"], day["Valor"].gsub('.','').gsub(',','.').to_d]},
+            prefix: "CLP$ ", min: nil, xtitle: "Fecha", ytitle: "Valor UF en CLP", points: false %>
+      <% end %>
       <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
         <thead>
         <tr>
           <th>Día</th>
-          <th>Valor (CLP)</th>
+          <th>Valor UF (CLP)</th>
         </tr>
         </thead>
         <tbody>
@@ -60,8 +62,8 @@
       </table>
     </div>
     <div class="col-md-6">
-      <div align="center  ">
-        <h3>PRECIO DÓLAR</h3>
+      <div align="center">
+        <h3 style="font-weight: bold">VALOR DÓLAR</h3>
       </div>
       <div class="row row-centered" style="margin-top: 20px">
         <div class="col-md-6 col-centered">
@@ -71,15 +73,15 @@
                 <tbody>
                 <tr>
                   <td><b>Valor Promedio: </b></td>
-                  <td><%= '%.2f' % (@usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.reduce(:+) / @usd_values.size) %></td>
+                  <td>CLP$ <%= '%.2f' % (@usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.reduce(:+) / @usd_values.size) %></td>
                 </tr>
                 <tr>
                   <td><b>Valor Mínimo: </b></td>
-                  <td><%= '%.2f' % @usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.min %></td>
+                  <td>CLP$ <%= '%.2f' % @usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.min %></td>
                 </tr>
                 <tr>
                   <td><b>Valor Mínimo: </b></td>
-                  <td><%= '%.2f' % @usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.max %></td>
+                  <td>CLP$ <%= '%.2f' % @usd_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.max %></td>
                 </tr>
                 </tbody>
               </table>
@@ -87,13 +89,15 @@
           </div>
         </div>
       </div>
-      <%= line_chart @usd_values.map{|day| [day["Fecha"], day["Valor"].gsub('.','').gsub(',','.').to_d]},
-          prefix: "CLP$ ", min: nil, xtitle: "Fecha", ytitle: "Valor Dólar en CLP", points: false, colors: ['#32cd32'] %>
+      <% if @usd_values.count > 1 %>
+        <%= line_chart @usd_values.map{|day| [day["Fecha"], day["Valor"].gsub('.','').gsub(',','.').to_d]},
+            prefix: "CLP$ ", min: nil, xtitle: "Fecha", ytitle: "Valor Dólar en CLP", points: false, colors: ['#32cd32'] %>
+      <% end %>
       <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
         <thead>
         <tr>
           <th>Día</th>
-          <th>Valor (CLP)</th>
+          <th>Valor Dólar (CLP)</th>
         </tr>
         </thead>
         <tbody>

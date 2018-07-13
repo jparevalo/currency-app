@@ -13,10 +13,10 @@ class HomeController < ApplicationController
 
   def handle_no_results
     if not @uf_values
-      @uf_values = [{"Fecha" => @end_date, "Valor" => 'No existe información' }]
+      @uf_values = [{"Fecha" => @end_date, "Valor" => 'No existe información para el rango seleccionado' }]
     end
     if not @usd_values
-      @usd_values = [{"Fecha" => @end_date, "Valor" => 'No existe información' }]
+      @usd_values = [{"Fecha" => @end_date, "Valor" => 'No existe información para el rango seleccionado' }]
     end
   end
 

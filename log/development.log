@@ -3447,3 +3447,3108 @@ Processing by HomeController#update as HTML
 Completed 200 OK in 1001ms (Views: 149.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:52:38 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 2111ms (Views: 157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:54:11 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 3526ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:54:45 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 2126ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:55:33 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 848ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:55:57 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 891ms (Views: 139.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 10:56:37 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 759ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:27:24 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 806ms (Views: 157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:48:47 -0400
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 1150ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x00000003fa10b0>:0x007fa194f6bcf0>
+Did you mean?  home_update_path):
+    19:       </div>
+    20:       <ul class="nav navbar-nav navbar-right">
+    21:         <li>
+    22:           <%= link_to home_path do %>
+    23:               TMC
+    24:           <% end %>
+    25:         </li>
+  
+app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___4287890246194913804_70165982764020'
+app/controllers/home_controller.rb:29:in `update'
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:48:56 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 928ms (Views: 180.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:49:09 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1273ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:49:16 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 846ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:49:23 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 780ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:49:29 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 730ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:51:48 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 971ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:52:43 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 808ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:53:18 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 743ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:53:43 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 770ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:53:50 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 873ms (Views: 163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update" for 127.0.0.1 at 2018-07-13 12:53:53 -0400
+Processing by HomeController#update as HTML
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: range):
+  
+app/controllers/home_controller.rb:11:in `set_params'
+app/controllers/home_controller.rb:24:in `update'
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:53:55 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 754ms (Views: 149.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:54:32 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 1329ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:58:00 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 911ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:58:55 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.6ms)
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 789ms (Views: 153.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 12:59:35 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 1963ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:00:06 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 915ms (Views: 152.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:00:36 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 985ms (Views: 162.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:04:13 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 710ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:04:16 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 832ms (Views: 202.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:04:49 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 765ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:05:08 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 777ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:05:18 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 802ms (Views: 159.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:05:39 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 1111ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:05:55 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 824ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:06:05 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 766ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:07:09 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 825ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:07:26 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 821ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:16:48 -0400
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (6.4ms)
+  Rendered home/index.html.erb within layouts/application (143.7ms)
+Completed 500 Internal Server Error in 3882ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `tmc_path' for #<#<Class:0x00000005bcaa20>:0x00000005b97620>
+Did you mean?  tmc_update_url):
+    26:         <nav style="line-height: 70px;">
+    27:             <ul class="nav navbar-nav navbar-right">
+    28:               <li>
+    29:                 <%= link_to tmc_path do %>
+    30:                     <h4 style="color:white">TMC</h4>
+    31:                 <% end %>
+    32:               </li>
+  
+app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3068342025576786915_47942360'
+app/controllers/home_controller.rb:29:in `update'
+Started PUT "/__web_console/repl_sessions/dfc71d516d1d57db2d3dc23447b63cca" for 127.0.0.1 at 2018-07-13 13:17:01 -0400
+Started PUT "/__web_console/repl_sessions/dfc71d516d1d57db2d3dc23447b63cca" for 127.0.0.1 at 2018-07-13 13:17:04 -0400
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:17:52 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (161.6ms)
+Completed 500 Internal Server Error in 1541ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `tmc_path' for #<#<Class:0x0000000596e6c8>:0x00000005fcfa80>
+Did you mean?  tmc_index_path):
+    26:         <nav style="line-height: 70px;">
+    27:             <ul class="nav navbar-nav navbar-right">
+    28:               <li>
+    29:                 <%= link_to tmc_path do %>
+    30:                     <h4 style="color:white">TMC</h4>
+    31:                 <% end %>
+    32:               </li>
+  
+app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__1836560734759806491_50023880'
+app/controllers/home_controller.rb:29:in `update'
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:18:14 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.1ms)
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 801ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:18:17 -0400
+Processing by TmcController#index as HTML
+Completed 406 Not Acceptable in 348ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TmcController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:20:47 -0400
+Processing by TmcController#index as HTML
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<html><head><title>Apache Tomcat/6.0.29 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /api-sbifv3/tmc/periodo/2018/7/dias_i/13/2018/7/dias_f/13</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/api-sbifv3/tmc/periodo/2018/7/dias_i/13/2018/7/dias_f/13</u></p><p><b>descripción</b> <u>El recurso requerido (/api-sbifv3/tmc/periodo/2018/7/dias_i/13/2018/7/dias_f/13) no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.29</h3></body></html>'):
+  
+app/helpers/get_currency.rb:28:in `tmc'
+app/controllers/tmc_controller.rb:5:in `index'
+Started PUT "/__web_console/repl_sessions/6d9673de54f1ea9e72886418699a3438" for 127.0.0.1 at 2018-07-13 13:21:11 -0400
+Started PUT "/__web_console/repl_sessions/6d9673de54f1ea9e72886418699a3438" for 127.0.0.1 at 2018-07-13 13:21:11 -0400
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:26:25 -0400
+Processing by TmcController#index as HTML
+Completed 406 Not Acceptable in 236ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TmcController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-07-13 13:26:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 1495ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:26:40 -0400
+Processing by TmcController#index as HTML
+Completed 406 Not Acceptable in 358ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TmcController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:26:57 -0400
+Processing by TmcController#index as HTML
+Completed 406 Not Acceptable in 227ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TmcController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:28:13 -0400
+Processing by TmcController#index as HTML
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template tmc/tmc, application/tmc with {:locale=>[:es], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/huarn/cumplo/desafio/currency-app/app/views"
+):
+  
+app/controllers/tmc_controller.rb:7:in `index'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:28:37 -0400
+Processing by TmcController#index as HTML
+Completed 406 Not Acceptable in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TmcController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:29:41 -0400
+Processing by TmcController#index as HTML
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template tmc/tmc, application/tmc with {:locale=>[:es], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/huarn/cumplo/desafio/currency-app/app/views"
+):
+  
+app/controllers/tmc_controller.rb:7:in `index'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:29:47 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial tmc/_date_form, application/_date_form with {:locale=>[:es], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/huarn/cumplo/desafio/currency-app/app/views"
+):
+    4:     <div class="panel panel-default">
+    5:       <div class="panel-heading">
+    6:         <h4 style="font-weight: bold">Consulta de Valores</h4>
+    7:         <%= render 'date_form' %>
+    8:       </div>
+    9:     </div>
+   10:   </div>
+  
+app/views/tmc/index.html.erb:7:in `_app_views_tmc_index_html_erb__273792119187292108_69928712698320'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:30:02 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.4ms)
+  Rendered tmc/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 635ms (Views: 308.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:31:05 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.6ms)
+  Rendered tmc/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 503ms (Views: 214.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F06%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:31:11 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/06/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 883ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:31:16 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.2ms)
+  Rendered tmc/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 495ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 13:31:40 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 457ms (Views: 170.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:31:46 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template tmc/tmc, application/tmc with {:locale=>[:es], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/huarn/cumplo/desafio/currency-app/app/views"
+):
+  
+app/controllers/tmc_controller.rb:27:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:32:01 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 490ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:34:38 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 536ms (Views: 222.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:37:12 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 614ms (Views: 246.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:37:14 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 528ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:37:16 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.6ms)
+  Rendered tmc/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 421ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:37:17 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 543ms (Views: 245.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 13:39:00 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (4.0ms)
+  Rendered tmc/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 3115ms (Views: 2866.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:08:58 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (9.1ms)
+  Rendered tmc/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 643ms (Views: 256.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:09:04 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:09:04 -0400
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.1ms)
+  Rendered tmc/index.html.erb within layouts/application (7.5ms)
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:09:04 -0400
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 200 OK in 476ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.5ms)
+  Rendered tmc/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 445ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.7ms)
+  Rendered tmc/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 497ms (Views: 156.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:09:45 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1355ms (Views: 185.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:13:39 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.5ms)
+  Rendered tmc/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2783ms (Views: 1674.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:15:19 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1147ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:15:28 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.1ms)
+  Rendered tmc/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 717ms (Views: 261.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:15:35 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.5ms)
+  Rendered tmc/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 579ms (Views: 239.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:33:23 -0400
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 584ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:33:59 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.5ms)
+  Rendered tmc/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 630ms (Views: 207.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:35:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.8ms)
+  Rendered tmc/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for nil:NilClass):
+    20:           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    21:             <% @tmc_values.each do |tmc, index| %>
+    22:                 <div class="panel panel-default">
+    23:                   <div class="panel-heading" role="tab" id="heading<%= index +1 %>">
+    24:                     <h4 class="panel-title">
+    25:                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index +1 %>" aria-controls="collapse<%= index +1 %>">
+    26:                         Collapsible Group Item <%= index +1 %>
+  
+app/views/tmc/index.html.erb:23:in `block in _app_views_tmc_index_html_erb__273792119187292108_21399300'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_21399300'
+app/controllers/tmc_controller.rb:30:in `update'
+Started PUT "/__web_console/repl_sessions/a09dd978a323c2d6ef0a2267b0262929" for 127.0.0.1 at 2018-07-13 15:35:39 -0400
+Started PUT "/__web_console/repl_sessions/a09dd978a323c2d6ef0a2267b0262929" for 127.0.0.1 at 2018-07-13 15:35:40 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:35:57 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1315ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:36:44 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 584ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:38:22 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.4ms)
+  Rendered tmc/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    23:                   <div class="panel-heading" role="tab" id="heading<%= index +1 %>">
+    24:                     <h4 class="panel-title">
+    25:                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index +1 %>" aria-expanded="false" aria-controls="collapse<%= index +1 %>">
+    26:                         <%= tmc["Title"] %>
+    27:                       </a>
+    28:                     </h4>
+    29:                   </div>
+  
+app/views/tmc/index.html.erb:26:in `[]'
+app/views/tmc/index.html.erb:26:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928634096300'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928634096300'
+app/controllers/tmc_controller.rb:30:in `update'
+Started PUT "/__web_console/repl_sessions/1e821585be1d932cdb873c310c8adfaf" for 127.0.0.1 at 2018-07-13 15:38:29 -0400
+Started PUT "/__web_console/repl_sessions/1e821585be1d932cdb873c310c8adfaf" for 127.0.0.1 at 2018-07-13 15:38:29 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:38:41 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 826ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    23:                   <div class="panel-heading" role="tab" id="heading<%= index +1 %>">
+    24:                     <h4 class="panel-title">
+    25:                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index +1 %>" aria-expanded="false" aria-controls="collapse<%= index +1 %>">
+    26:                         <%= tmc["Titulo"] %>
+    27:                       </a>
+    28:                     </h4>
+    29:                   </div>
+  
+app/views/tmc/index.html.erb:26:in `[]'
+app/views/tmc/index.html.erb:26:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928584482980'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928584482980'
+app/controllers/tmc_controller.rb:30:in `update'
+Started PUT "/__web_console/repl_sessions/fd72208df3a63246f39246ef5b7aabd4" for 127.0.0.1 at 2018-07-13 15:38:44 -0400
+Started PUT "/__web_console/repl_sessions/fd72208df3a63246f39246ef5b7aabd4" for 127.0.0.1 at 2018-07-13 15:38:44 -0400
+Started PUT "/__web_console/repl_sessions/fd72208df3a63246f39246ef5b7aabd4" for 127.0.0.1 at 2018-07-13 15:38:54 -0400
+Started PUT "/__web_console/repl_sessions/fd72208df3a63246f39246ef5b7aabd4" for 127.0.0.1 at 2018-07-13 15:39:05 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:39:29 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 533ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:41:56 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 433ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for nil:NilClass):
+  
+app/controllers/tmc_controller.rb:23:in `block in group_by_name'
+app/controllers/tmc_controller.rb:22:in `each'
+app/controllers/tmc_controller.rb:22:in `each_with_index'
+app/controllers/tmc_controller.rb:22:in `group_by_name'
+app/controllers/tmc_controller.rb:34:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:42:06 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 520ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `tmc' for #<TmcController:0x007f330814bc60>):
+  
+app/controllers/tmc_controller.rb:24:in `block in group_by_name'
+app/controllers/tmc_controller.rb:22:in `each'
+app/controllers/tmc_controller.rb:22:in `each_with_index'
+app/controllers/tmc_controller.rb:22:in `group_by_name'
+app/controllers/tmc_controller.rb:34:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:42:51 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 401ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tmc_controller.rb:24:in `[]'
+app/controllers/tmc_controller.rb:24:in `block in group_by_name'
+app/controllers/tmc_controller.rb:22:in `each'
+app/controllers/tmc_controller.rb:22:in `each_with_index'
+app/controllers/tmc_controller.rb:22:in `group_by_name'
+app/controllers/tmc_controller.rb:34:in `update'
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:42:57 -0400
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:42:58 -0400
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:43:07 -0400
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:43:09 -0400
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:43:13 -0400
+Started PUT "/__web_console/repl_sessions/6f3d2f02a8aa9290b950fc5c5456d5ce" for 127.0.0.1 at 2018-07-13 15:43:14 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:44:07 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 695ms (Views: 186.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:44:34 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 372ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]=' for nil:NilClass):
+  
+app/controllers/tmc_controller.rb:24:in `block in group_by_name'
+app/controllers/tmc_controller.rb:22:in `each'
+app/controllers/tmc_controller.rb:22:in `each_with_index'
+app/controllers/tmc_controller.rb:22:in `group_by_name'
+app/controllers/tmc_controller.rb:34:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:46:19 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+Completed 500 Internal Server Error in 543ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tmc_controller.rb:23:in `[]'
+app/controllers/tmc_controller.rb:23:in `block in group_by_name'
+app/controllers/tmc_controller.rb:21:in `each'
+app/controllers/tmc_controller.rb:21:in `group_by_name'
+app/controllers/tmc_controller.rb:34:in `update'
+Started PUT "/__web_console/repl_sessions/273b850709be495fc3d9c188f751e10f" for 127.0.0.1 at 2018-07-13 15:46:25 -0400
+Started PUT "/__web_console/repl_sessions/273b850709be495fc3d9c188f751e10f" for 127.0.0.1 at 2018-07-13 15:46:37 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:46:49 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 650ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:47:21 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 993ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:48:21 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 598ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:49:12 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 647ms (Views: 275.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:51:53 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 535ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:52:31 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 557ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:54:48 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.2ms)
+  Rendered tmc/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 522ms (Views: 213.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:55:29 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 623ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 15:59:31 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 545ms (Views: 179.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:00:47 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1896ms (Views: 169.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:01:53 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 1466ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:02:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.8ms)
+  Rendered tmc/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1585ms (Views: 165.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:03:39 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.8ms)
+  Rendered tmc/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 568ms (Views: 189.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:04:05 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1687ms (Views: 154.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:04:15 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 591ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:04:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 493ms (Views: 228.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:04:35 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 555ms (Views: 195.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:04:54 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 359ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    30:                   <div id="collapse<%= index +1 %>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading<%= index +1 %>">
+    31:                     <div class="panel-body">
+    32:                       <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+    33:                           <h4 style="font-weight: bold"><%= t[0] %> (<%= t[1]["Tipo"] %>)</h4>
+    34:                           <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+    35:                             <thead>
+    36:                             <tr>
+  
+app/views/tmc/index.html.erb:33:in `[]'
+app/views/tmc/index.html.erb:33:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928647940240'
+app/views/tmc/index.html.erb:32:in `each'
+app/views/tmc/index.html.erb:32:in `each_with_index'
+app/views/tmc/index.html.erb:32:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928647940240'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928647940240'
+app/controllers/tmc_controller.rb:36:in `update'
+Started PUT "/__web_console/repl_sessions/4d3b02c84bfec0db9eb0b90c08e56b32" for 127.0.0.1 at 2018-07-13 16:05:00 -0400
+Started PUT "/__web_console/repl_sessions/4d3b02c84bfec0db9eb0b90c08e56b32" for 127.0.0.1 at 2018-07-13 16:05:02 -0400
+Started PUT "/__web_console/repl_sessions/4d3b02c84bfec0db9eb0b90c08e56b32" for 127.0.0.1 at 2018-07-13 16:05:03 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:05:14 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 726ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:05:57 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 591ms (Views: 173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:06:42 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.6ms)
+  Rendered tmc/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 607ms (Views: 241.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:06:45 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 695ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:07:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 521ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:07:29 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.1ms)
+  Rendered tmc/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 597ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:08:23 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.1ms)
+  Rendered tmc/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 1342ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:08:35 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (6.6ms)
+  Rendered tmc/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 468ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:08:58 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1856ms (Views: 233.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:09:45 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 587ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:09:53 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.6ms)
+  Rendered tmc/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 592ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:10:07 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 1703ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:15:57 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (4.2ms)
+  Rendered tmc/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 877ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_index_path' for #<#<Class:0x007f33041a1d58>:0x007f33044ef550>
+Did you mean?  home_update_path):
+    31:                       <h4 style="color:white">TMC</h4>
+    32:                   <% end %>
+    33:                 <% else %>
+    34:                     <%= link_to home_index_path do %>
+    35:                         <h4 style="color:white">UF/DÓLAR</h4>
+    36:                     <% end %>
+    37:                 <% end %>
+  
+app/views/layouts/application.html.erb:34:in `_app_views_layouts_application_html_erb__1836560734759806491_69928631426080'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F30%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:16:14 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/30/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1039ms (Views: 168.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:16:18 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 1061ms (Views: 233.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:16:20 -0400
+Processing by TmcController#index as HTML
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for nil:NilClass):
+  
+app/controllers/tmc_controller.rb:21:in `group_by_name'
+app/controllers/tmc_controller.rb:6:in `index'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:17:07 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.4ms)
+  Rendered tmc/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 542ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:17:22 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.0ms)
+  Rendered tmc/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 485ms (Views: 197.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:18:45 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.0ms)
+  Rendered tmc/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 544ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:19:09 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 349ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/tmc/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/tmc/index.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:19:21 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1326ms (Views: 202.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:19:33 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 506ms (Views: 229.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:19:43 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (380.5ms)
+Completed 500 Internal Server Error in 619ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `tmc' for #<#<Class:0x007f3304126018>:0x007f3304c24e88>):
+    54:                   </div>
+    55:                 <% end %>
+    56:             <%end%>
+    57:             <%= tmc[0] %>
+    58:           </div>
+    59:           <!-- /.navbar-collapse -->
+    60:         </div>
+  
+app/views/tmc/index.html.erb:57:in `_app_views_tmc_index_html_erb__273792119187292108_69928549952760'
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:19:48 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.9ms)
+  Rendered tmc/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 536ms (Views: 189.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:20:08 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 385ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:21:07 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 707ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:56: syntax error, unexpected keyword_else, expecting keyword_end
+                 else 
+                     ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:84: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/tmc/index.html.erb:56: syntax error, unexpected keyword_else, expecting keyword_end
+app/views/tmc/index.html.erb:84: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:21:18 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 554ms (Views: 219.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:21:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 558ms (Views: 156.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:21:46 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.9ms)
+  Rendered tmc/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 576ms (Views: 194.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:22:14 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 558ms (Views: 202.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:22:33 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 579ms (Views: 169.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:24:02 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 528ms (Views: 178.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:24:52 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 394ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:55: syntax error, unexpected keyword_else, expecting keyword_end
+'.freeze;                 else 
+                              ^):
+  
+app/views/tmc/index.html.erb:55: syntax error, unexpected keyword_else, expecting keyword_end
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:25:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 676ms (Views: 176.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:25:36 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 600ms (Views: 226.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:25:40 -0400
+Processing by HomeController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:25:40 -0400
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 746ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 818ms (Views: 221.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:25:45 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.5ms)
+  Rendered tmc/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 329ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:25:49 -0400
+Processing by HomeController#index as HTML
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:25:50 -0400
+Processing by TmcController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:25:51 -0400
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.4ms)
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 2552ms (Views: 658.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1760ms (Views: 684.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1218ms (Views: 289.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:25:53 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 375ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=11%2F26%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:25:57 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"11/26/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 872ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=11%2F26%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:29:35 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"11/26/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 618ms (Views: 185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:32:41 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 977ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:32:46 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 998ms (Views: 183.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:33:04 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 427ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F27%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:33:10 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/27/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.1ms)
+  Rendered tmc/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 1125ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:34:02 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2411ms (Views: 182.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:34:28 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 753ms (Views: 158.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:34:33 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 936ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=01%2F02%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:34:44 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"01/02/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 1035ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=01%2F31%2F2019&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:35:08 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"01/31/2019"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 1032ms (Views: 172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=10%2F31%2F2018&range%5Bend_date%5D=01%2F31%2F2019&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:35:14 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"10/31/2018", "end_date"=>"01/31/2019"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 841ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=10%2F31%2F2018&range%5Bend_date%5D=01%2F31%2F2019&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:35:15 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"10/31/2018", "end_date"=>"01/31/2019"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 1611ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F05%2F2018&range%5Bend_date%5D=01%2F31%2F2019&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:35:25 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/05/2018", "end_date"=>"01/31/2019"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 894ms (Views: 191.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:35:34 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.7ms)
+  Rendered tmc/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 359ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:36:48 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.0ms)
+  Rendered tmc/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 950ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:37:03 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.1ms)
+  Rendered tmc/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 451ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:37:06 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 821ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:37:09 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.0ms)
+  Rendered tmc/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 464ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:37:10 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 772ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:37:12 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 463ms (Views: 131.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F28%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:37:16 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/28/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.2ms)
+  Rendered tmc/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 1033ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:37:56 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1605ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=09%2F24%2F2017&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:38:05 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"09/24/2017", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 908ms (Views: 208.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:38:16 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.2ms)
+  Rendered tmc/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 350ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F08%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:38:22 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/08/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.9ms)
+  Rendered tmc/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 1635ms (Views: 203.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:38:49 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 957ms (Views: 238.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=07%2F13%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:38:57 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"07/13/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 698ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F13%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:39:07 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/13/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 1018ms (Views: 188.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:39:35 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 500ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:39:48 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.8ms)
+  Rendered tmc/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 1175ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:42:02 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_d' for nil:NilClass
+Did you mean?  to_c
+               to_r
+               to_h
+               to_f
+               to_i
+               to_s
+               to_a):
+    32:                     <div class="panel-body">
+    33:                       <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+    34:                           <% if t.count > 1 %>
+    35:                             <%= line_chart t.map{|day| [day["Fecha"], day["Valor"].to_d]},
+    36:                                            suffix: "%", min: nil, xtitle: "Fecha", ytitle: "Calor TMC", points: false, colors: ['#ffff00'] %>
+    37:                           <% end %>
+    38:                           <h4 style="font-weight: bold; margin-top:40px"><%= t[0] %> (<%= t[1][0]["Tipo"] %>)</h4>
+  
+app/views/tmc/index.html.erb:35:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928648461980'
+app/views/tmc/index.html.erb:35:in `map'
+app/views/tmc/index.html.erb:35:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928648461980'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928648461980'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928648461980'
+app/controllers/tmc_controller.rb:36:in `update'
+Started PUT "/__web_console/repl_sessions/7b22b5eac8c67c6d493b6eb47859d75b" for 127.0.0.1 at 2018-07-13 16:42:10 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:42:17 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.4ms)
+  Rendered tmc/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 1813ms (Views: 172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:42:50 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.3ms)
+  Rendered tmc/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 1434ms (Views: 170.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:43:01 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 691ms (Views: 183.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:43:39 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 334ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_d' for nil:NilClass
+Did you mean?  to_c
+               to_r
+               to_h
+               to_f
+               to_i
+               to_s
+               to_a):
+    33:                       <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+    34:                           <h4 style="font-weight: bold; margin-top:40px"><%= t[0] %> (<%= t[1][0]["Tipo"] %>)</h4>
+    35:                           <% if t.count > 1 %>
+    36:                               <%= line_chart t.map{|day| [day["Fecha"], day["Valor"].to_d]},
+    37:                                              suffix: "%", min: nil, xtitle: "Fecha", ytitle: "Valor TMC", points: false, colors: ['#ffff00'] %>
+    38:                           <% end %>
+    39:                           <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+  
+app/views/tmc/index.html.erb:36:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_47365000'
+app/views/tmc/index.html.erb:36:in `map'
+app/views/tmc/index.html.erb:36:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_47365000'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_47365000'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_47365000'
+app/controllers/tmc_controller.rb:36:in `update'
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:42 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:44 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:44 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:48 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:57 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:43:58 -0400
+Started PUT "/__web_console/repl_sessions/8e4aa5adbd8291a62b3c9cba8699415f" for 127.0.0.1 at 2018-07-13 16:44:06 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:44:26 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 2226ms (Views: 178.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F04%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:45:55 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/04/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.1ms)
+  Rendered tmc/index.html.erb within layouts/application (13.5ms)
+Completed 500 Internal Server Error in 462ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_d' for nil:NilClass
+Did you mean?  to_c
+               to_r
+               to_h
+               to_f
+               to_i
+               to_s
+               to_a):
+    33:                       <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+    34:                           <h4 style="font-weight: bold; margin-top:40px"><%= t[0] %> (<%= t[1][0]["Tipo"] %>)</h4>
+    35:                           <% if t.count > 1 %>
+    36:                               <%= line_chart t.map{|day| [day["Fecha"], day["Valor"].to_d]},
+    37:                                  suffix: "%", min: nil, xtitle: "Fecha", ytitle: "Valor TMC", points: true, colors: ['#ffff00'] %>
+    38:                           <% end %>
+    39:                           <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+  
+app/views/tmc/index.html.erb:36:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928584414440'
+app/views/tmc/index.html.erb:36:in `map'
+app/views/tmc/index.html.erb:36:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928584414440'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928584414440'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928584414440'
+app/controllers/tmc_controller.rb:36:in `update'
+Started PUT "/__web_console/repl_sessions/3ffcc1280f4bcb72b9357b287bd7c74e" for 127.0.0.1 at 2018-07-13 16:46:00 -0400
+Started PUT "/__web_console/repl_sessions/3ffcc1280f4bcb72b9357b287bd7c74e" for 127.0.0.1 at 2018-07-13 16:46:07 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:46:25 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 870ms (Views: 181.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:46:46 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 1084ms (Views: 173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=05%2F06%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:46:52 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"05/06/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (169.4ms)
+Completed 500 Internal Server Error in 1304ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `s' for #<#<Class:0x007f330e482fb8>:0x007f3318134a78>):
+    41:         </div>
+    42:       </div>
+    43:       <% if @uf_values.count > 1 %>
+    44:         <%= line_chart s@uf_values.map{|day| [day["Fecha"], day["Valor"].gsub('.','').gsub(',','.').to_d]},
+    45:             prefix: "CLP$ ", min: nil, xtitle: "Fecha", ytitle: "Valor UF en CLP", points: false %>
+    46:       <% end %>
+    47:       <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+  
+app/views/home/index.html.erb:44:in `_app_views_home_index_html_erb__352959647949776533_69928711961240'
+app/controllers/home_controller.rb:29:in `update'
+Started PUT "/__web_console/repl_sessions/e81ea0b8b4f7cbc5bab461b7fc796848" for 127.0.0.1 at 2018-07-13 16:46:55 -0400
+Started PUT "/__web_console/repl_sessions/e81ea0b8b4f7cbc5bab461b7fc796848" for 127.0.0.1 at 2018-07-13 16:46:56 -0400
+Started PUT "/__web_console/repl_sessions/e81ea0b8b4f7cbc5bab461b7fc796848" for 127.0.0.1 at 2018-07-13 16:47:00 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-13 16:47:23 -0400
+Processing by HomeController#index as HTML
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:47:24 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/huarn/.rvm/gems/ruby-2.3.1@desafio-cumplo/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by TmcController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 2006ms (Views: 186.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.7ms)
+  Rendered tmc/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 577ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 16:47:26 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 505ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:47:30 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 442ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_d' for nil:NilClass
+Did you mean?  to_c
+               to_r
+               to_h
+               to_f
+               to_i
+               to_s
+               to_a):
+    33:                       <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+    34:                           <h4 style="font-weight: bold; margin-top:40px"><%= t[0] %> (<%= t[1][0]["Tipo"] %>)</h4>
+    35:                           <% if t.count > 1 %>
+    36:                               <%= line_chart t.map{|day| [day["Fecha"], day["Valor"].to_d]},
+    37:                                  suffix: "%", min: nil, xtitle: "Fecha", ytitle: "Valor TMC", points: true, colors: ['#ffff00'] %>
+    38:                           <% end %>
+    39:                           <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+  
+app/views/tmc/index.html.erb:36:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928745612160'
+app/views/tmc/index.html.erb:36:in `map'
+app/views/tmc/index.html.erb:36:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928745612160'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928745612160'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928745612160'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:47:39 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 500ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:47:42 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 558ms (Views: 187.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:49:21 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.2ms)
+  Rendered tmc/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 552ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:52:09 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 553ms (Views: 196.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:52:34 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 517ms (Views: 165.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:52:50 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 581ms (Views: 180.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:53:08 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected tSTRING_DEND, expecting ')'
+...0"], discrete: true, min: nil }) );@output_buffer.safe_appen...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                             end 
+                                         ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                       end 
+                                   ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;                 else 
+                              ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                 end 
+                             ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/tmc/index.html.erb:38: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:53:19 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 398ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected tLABEL
+...lor"].to_d]}, {library: xtitle: "Fecha", ytitle: "Valor TMC"...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+...d]}, {library: xtitle: "Fecha", ytitle: "Valor TMC", colors:...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+...: "Fecha", ytitle: "Valor TMC", colors: ["yellow", "#ffff00"...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+... colors: ["yellow", "#ffff00"], discrete: true, min: nil }) ...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: Can't assign to true
+...w", "#ffff00"], discrete: true, min: nil }) );@output_buffer...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                             end 
+                                         ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                       end 
+                                   ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;                 else 
+                              ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                 end 
+                             ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/tmc/index.html.erb:38: syntax error, unexpected tLABEL
+app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/tmc/index.html.erb:38: Can't assign to true
+app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:53:28 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 462ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:53:39 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ')', expecting =>
+..."], discrete: true, min: nil }) );@output_buffer.safe_append...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                             end 
+                                         ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                       end 
+                                   ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;                 else 
+                              ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                 end 
+                             ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/tmc/index.html.erb:38: syntax error, unexpected ')', expecting =>
+app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:53:53 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 673ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:54:13 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 705ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected tSTRING_DEND, expecting ')'
+... "Fecha", ytitle: "Valor TMC" }) );@output_buffer.safe_appen...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                             end 
+                                         ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                       end 
+                                   ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;                 else 
+                              ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                 end 
+                             ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/tmc/index.html.erb:38: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:54:25 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 593ms (Views: 202.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:54:44 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 1188ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected tLABEL
+...lor"].to_d]}, {library: colors: ["yellow", "#ffff00"], discr...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+... colors: ["yellow", "#ffff00"], discrete: true, min: nil, xt...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: Can't assign to true
+...w", "#ffff00"], discrete: true, min: nil, xtitle: "Fecha", y...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: Can't assign to nil
+...00"], discrete: true, min: nil, xtitle: "Fecha", ytitle: "Va...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+...rue, min: nil, xtitle: "Fecha", ytitle: "Valor TMC" }) );@ou...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:38: syntax error, unexpected '}', expecting ')'
+... "Fecha", ytitle: "Valor TMC" }) );@output_buffer.safe_appen...
+...                               ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                             end 
+                                         ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                       end 
+                                   ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;                 else 
+                              ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;                 end 
+                             ^
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+/home/huarn/cumplo/desafio/currency-app/app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/tmc/index.html.erb:38: syntax error, unexpected tLABEL
+app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/tmc/index.html.erb:38: Can't assign to true
+app/views/tmc/index.html.erb:38: Can't assign to nil
+app/views/tmc/index.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/tmc/index.html.erb:38: syntax error, unexpected '}', expecting ')'
+app/views/tmc/index.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:63: syntax error, unexpected keyword_else, expecting ')'
+app/views/tmc/index.html.erb:71: syntax error, unexpected keyword_end, expecting ')'
+app/views/tmc/index.html.erb:89: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/tmc/index.html.erb:91: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:54:59 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 1009ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:55:04 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 1372ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:55:15 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (0.9ms)
+  Rendered tmc/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 547ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:55:44 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 573ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:55:56 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 1186ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:56:03 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.9ms)
+  Rendered tmc/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 588ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:56:24 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 568ms (Views: 168.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:56:31 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 1389ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 16:58:22 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 551ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:00:33 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.8ms)
+  Rendered tmc/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 368ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_d' for nil:NilClass
+Did you mean?  to_c
+               to_r
+               to_h
+               to_f
+               to_i
+               to_s
+               to_a):
+    44:                                         <tbody>
+    45:                                         <tr>
+    46:                                           <td><b>Valor Máximo: </b></td>
+    47:                                           <td>CLP$ <%= '%.2f' % (t.map{|day| day["Valor"].to_d}.reduce(:+) / t.size) %></td>
+    48:                                         </tr>
+    49:                                         </tbody>
+    50:                                       </table>
+  
+app/views/tmc/index.html.erb:47:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928647438720'
+app/views/tmc/index.html.erb:47:in `map'
+app/views/tmc/index.html.erb:47:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928647438720'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928647438720'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928647438720'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:01:04 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (5.0ms)
+  Rendered tmc/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 490ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:02:31 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.3ms)
+  Rendered tmc/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 2052ms (Views: 183.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:02:47 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 625ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:02:56 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 517ms (Views: 166.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:04:13 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.7ms)
+  Rendered tmc/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 624ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:05:41 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 555ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:05:51 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 1698ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:06:00 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 577ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:08:24 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 533ms (Views: 176.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:09:56 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1952ms (Views: 184.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=03%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:11:12 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"03/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 1408ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 17:11:21 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 2145ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F21%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:11:29 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/21/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 1350ms (Views: 190.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 17:11:36 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 1950ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:11:43 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.9ms)
+  Rendered tmc/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 1222ms (Views: 196.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:12:05 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 1555ms (Views: 193.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:13:34 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.7ms)
+  Rendered tmc/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 1773ms (Views: 184.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:14:25 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.2ms)
+  Rendered tmc/index.html.erb within layouts/application (382.5ms)
+Completed 500 Internal Server Error in 1023ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `asdt' for #<#<Class:0x007f330e114a70>:0x007f33088acb08>):
+    43:                                       <table class="table table-condensed table-bordered"  style="margin-top: 20px">
+    44:                                         <tbody>
+    45:                                         <td><font color="#ff0000"><b>Valor Máximo: </b></font></td>
+    46:                                           <td><%= '%.2f' % asdt[1].map{|day| day["Valor"]}.max %>%</td>
+    47:                                         </tr>
+    48:                                         <tr>
+    49:                                           <td><b>Valor Mínimo: </b></td>
+  
+app/views/tmc/index.html.erb:46:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928581674820'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928581674820'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928581674820'
+app/controllers/tmc_controller.rb:36:in `update'
+Started PUT "/__web_console/repl_sessions/c1a53819c1d33b5b9208aa3c543cccaf" for 127.0.0.1 at 2018-07-13 17:14:29 -0400
+Started PUT "/__web_console/repl_sessions/c1a53819c1d33b5b9208aa3c543cccaf" for 127.0.0.1 at 2018-07-13 17:14:38 -0400
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:15:03 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (3.9ms)
+  Rendered tmc/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 2528ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    43:                                       <table class="table table-condensed table-bordered"  style="margin-top: 20px">
+    44:                                         <tbody>
+    45:                                         <td><font color="#ff0000"><b>Valor Máximo: </b></font></td>
+    46:                                             <td><%= '%.2f' % [1].map{|day| day["Valor"]}.max %>%</td>
+    47:                                         </tr>
+    48:                                         <tr>
+    49:                                           <td><b>Valor Mínimo: </b></td>
+  
+app/views/tmc/index.html.erb:46:in `[]'
+app/views/tmc/index.html.erb:46:in `block (3 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928632051460'
+app/views/tmc/index.html.erb:46:in `map'
+app/views/tmc/index.html.erb:46:in `block (2 levels) in _app_views_tmc_index_html_erb__273792119187292108_69928632051460'
+app/views/tmc/index.html.erb:33:in `each'
+app/views/tmc/index.html.erb:33:in `each_with_index'
+app/views/tmc/index.html.erb:33:in `block in _app_views_tmc_index_html_erb__273792119187292108_69928632051460'
+app/views/tmc/index.html.erb:21:in `each'
+app/views/tmc/index.html.erb:21:in `each_with_index'
+app/views/tmc/index.html.erb:21:in `_app_views_tmc_index_html_erb__273792119187292108_69928632051460'
+app/controllers/tmc_controller.rb:36:in `update'
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:15:11 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.3ms)
+  Rendered tmc/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 828ms (Views: 234.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:16:25 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.1ms)
+  Rendered tmc/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 1895ms (Views: 249.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:17:37 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (2.7ms)
+  Rendered tmc/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 3324ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:17:51 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.6ms)
+  Rendered tmc/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 3065ms (Views: 180.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:19:25 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 10359ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=01%2F01%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:21:03 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"01/01/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.0ms)
+  Rendered tmc/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 1811ms (Views: 216.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-13 17:22:06 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1715ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/update?utf8=%E2%9C%93&range%5Bstart_date%5D=06%2F24%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:22:12 -0400
+Processing by HomeController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"06/24/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_date_form.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 8098ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/index" for 127.0.0.1 at 2018-07-13 17:22:24 -0400
+Processing by TmcController#index as HTML
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.4ms)
+  Rendered tmc/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 752ms (Views: 180.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tmc/update?utf8=%E2%9C%93&range%5Bstart_date%5D=02%2F25%2F2018&range%5Bend_date%5D=07%2F13%2F2018&commit=Aplicar" for 127.0.0.1 at 2018-07-13 17:22:29 -0400
+Processing by TmcController#update as HTML
+  Parameters: {"utf8"=>"✓", "range"=>{"start_date"=>"02/25/2018", "end_date"=>"07/13/2018"}, "commit"=>"Aplicar"}
+  Rendering tmc/index.html.erb within layouts/application
+  Rendered tmc/_date_form.html.erb (1.1ms)
+  Rendered tmc/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 2018ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+

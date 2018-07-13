@@ -1,0 +1,106 @@
+<%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
+<div class="row row-centered" style="margin-bottom: 30px">
+  <div class="col-md-6 col-centered">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 style="font-weight: bold">Consulta de Tasa de Interés Máxima Convencional</h4>
+        <%= render 'date_form' %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div align="center">
+        <h3 style="font-weight: bold">TMC</h3>
+      </div>
+      <nav>
+        <div class="container">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <% @tmc_by_title.each_with_index do |tmc, index| %>
+                <% if tmc[0] != "No existe información para el rango seleccionado" %>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading<%= index +1 %>">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index +1 %>" aria-expanded="false" aria-controls="collapse<%= index +1 %>">
+                        <%= tmc[0] %>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse<%= index +1 %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<%= index +1 %>">
+                    <div class="panel-body">
+                      <% tmc[1].group_by { |t| t["SubTitulo"] }.each_with_index do |t, index| %>
+                          <h4 style="font-weight: bold; margin-top:40px; margin-bottom: 40px" align="center"><%= t[0] %> (<%= t[1][0]["Tipo"] %>)</h4>
+                          <div class="row">
+                            <% if t.count > 1 %>
+                                <div class="col-md-8">
+                                  <%= line_chart(t[1].map{|day| [day["Fecha"], day["Valor"].to_d]}, {colors: ["yellow", "#ffff00"], discrete: true, min: nil, xtitle: "Fecha", ytitle: "Valor TMC" }) %>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <table class="table table-condensed table-bordered"  style="margin-top: 20px">
+                                        <tbody>
+                                        <td><font color="#ff0000"><b>Valor Máximo: </b></font></td>
+                                            <td><%= '%.2f' % t[1].map{|day| day["Valor"].to_d}.max %>%</td>
+                                        </tr>
+                                        <tr>
+                                          <td><b>Valor Mínimo: </b></td>
+                                          <td><%= '%.2f' % t[1].map{|day| day["Valor"].to_d}.min %>%</td>
+                                        </tr>
+                                        <tr>
+                                          <td><b>Valor Promedio: </b></td>
+                                          <td><%= '%.2f' % (t[1].map{|day| day["Valor"].to_d}.reduce(:+) / t[1].size) %>%</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                            <% end %>
+                          </div>
+                          <table class="table table-striped table-bordered table-condensed"  style="margin-top: 40px">
+                            <thead>
+                            <tr>
+                              <th>Día</th>
+                              <th>Valor (%)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <% t[1].each do |day| %>
+                                <tr>
+                                  <td><%= day["Fecha"]%></td>
+                                  <td><%= day["Valor"]%></td>
+                                </tr>
+                            <% end %>
+                            </tbody>
+                          </table>
+                      <% end %>
+                    </div>
+                  </div>
+                </div>
+                <% else %>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading<%= index +1 %>">
+                        <h4 class="panel-title">
+                          <%= tmc[0] %>
+                        </h4>
+                      </div>
+                    </div>
+                <% end %>
+            <%end%>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+    $(document).click(function(e) {
+        if ($(e.target).is('.panel-heading')) {
+            $('.collapse').collapse('hide');
+        }
+    });
+</script>

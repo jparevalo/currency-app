@@ -7,6 +7,8 @@ class GetCurrency
     api_key = Figaro.env.sbif_api_key
     @api_url = "https://api.sbif.cl/api-sbifv3/recursos_api/%{currency_type}/periodo/%{start_year}/%{start_month}/"\
                 "dias_i/%{start_day}/%{end_year}/%{end_month}/dias_f/%{end_day}?apikey=#{api_key}&formato=json"
+    @api_tmc_url = "https://api.sbif.cl/api-sbifv3/recursos_api/%{currency_type}/periodo/%{start_year}/%{start_month}/"\
+                    "%{end_year}/%{end_month}?apikey=#{api_key}&formato=json"
   end
 
   def get_ymd_from_date(date)
@@ -21,5 +23,10 @@ class GetCurrency
   def usd(start_date, end_date)
     url = URI(@api_url % {currency_type: 'dolar', start_year: start_date.year, start_month: start_date.month, start_day: start_date.day, end_year: end_date.year, end_month: end_date.month, end_day: end_date.day})
     {'USD': JSON.parse(Net::HTTP.get(url))['Dolares']}
+  end
+
+  def tmc(start_date, end_date)
+    url = URI(@api_tmc_url % {currency_type: 'tmc', start_year: start_date.year, start_month: start_date.month, end_year: end_date.year, end_month: end_date.month})
+    {'TMC': JSON.parse(Net::HTTP.get(url))['TMCs']}
   end
 end

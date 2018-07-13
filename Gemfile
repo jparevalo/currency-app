@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 
 # Bootstrap
-gem 'bootstrap'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 
 # Savon for api calls
@@ -28,6 +28,9 @@ gem "figaro"
 
 # Datepicker for date selection
 gem 'bootstrap-datepicker-rails'
+
+# Chartkick for pretty JS charts
+gem "chartkick"
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

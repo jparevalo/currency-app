@@ -14,5 +14,9 @@
  #*= require_tree .
  #*= require_self
  #*/
-
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.row-centered {text-align:center;}
+.col-centered { display:inline-block; float:none; margin-right:-4px;}
+

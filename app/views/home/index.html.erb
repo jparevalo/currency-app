@@ -31,7 +31,7 @@
                   <td>CLP$ <%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.min %></td>
                 </tr>
                 <tr>
-                  <td><b>Valor Mínimo: </b></td>
+                  <td><b>Valor Máximo: </b></td>
                   <td>CLP$ <%= '%.2f' % @uf_values.map{|day| day["Valor"].gsub('.','').gsub(',','.').to_d}.max %></td>
                 </tr>
                 </tbody>
